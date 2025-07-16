@@ -40,7 +40,7 @@ struct SettingsView: View {
                         SettingButtonView(text: "Rate the app", imageName: "star")
                     }
                     Button {
-                        if let url = URL(string: "https://www.termsfeed.com/live/26b5b286-7210-4cca-89f5-cd4a79706b66") {
+                        if let url = URL(string: "https://www.termsfeed.com/live/b0b2c72a-dca2-498b-8ad5-df5ced86cdfd") {
                             UIApplication.shared.open(url)
                         }
                     } label: {
