@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741317BE2E27010F00DE22BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741317B52E27010F00DE22BB /* Assets.xcassets */; };
+		741317C02E27010F00DE22BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741317B82E27010F00DE22BB /* LaunchScreen.storyboard */; };
+		741317C12E27010F00DE22BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741317BA2E27010F00DE22BB /* Main.storyboard */; };
+		741317C22E27010F00DE22BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317B42E27010F00DE22BB /* AppDelegate.swift */; };
+		741317C32E27010F00DE22BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317BB2E27010F00DE22BB /* SceneDelegate.swift */; };
+		741317E12E27019100DE22BB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317C52E27019100DE22BB /* CoreDataManager.swift */; };
+		741317E22E27019100DE22BB /* CollectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D32E27019100DE22BB /* CollectionListView.swift */; };
+		741317E32E27019100DE22BB /* CodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317CE2E27019100DE22BB /* CodexView.swift */; };
+		741317E42E27019100DE22BB /* Codex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317CD2E27019100DE22BB /* Codex.swift */; };
+		741317E52E27019100DE22BB /* CodexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317CF2E27019100DE22BB /* CodexViewModel.swift */; };
+		741317E62E27019100DE22BB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317DF2E27019100DE22BB /* LoadingView.swift */; };
+		741317E72E27019100DE22BB /* EntyLisyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D52E27019100DE22BB /* EntyLisyView.swift */; };
+		741317E82E27019100DE22BB /* AddRelicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D12E27019100DE22BB /* AddRelicView.swift */; };
+		741317E92E27019100DE22BB /* CellForCodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317C92E27019100DE22BB /* CellForCodexView.swift */; };
+		741317EA2E27019100DE22BB /* CollectionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D42E27019100DE22BB /* CollectionListViewModel.swift */; };
+		741317EB2E27019100DE22BB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317DB2E27019100DE22BB /* SettingsView.swift */; };
+		741317EC2E27019100DE22BB /* CellofRelicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317CA2E27019100DE22BB /* CellofRelicView.swift */; };
+		741317ED2E27019100DE22BB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317DD2E27019100DE22BB /* MainTabView.swift */; };
+		741317EE2E27019100DE22BB /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D72E27019100DE22BB /* FavoriteView.swift */; };
+		741317EF2E27019100DE22BB /* SettingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317CB2E27019100DE22BB /* SettingButtonView.swift */; };
+		741317F02E27019100DE22BB /* AddReplicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D22E27019100DE22BB /* AddReplicViewModel.swift */; };
+		741317F12E27019100DE22BB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317D92E27019100DE22BB /* OnboardingView.swift */; };
+		741317F42E2701B100DE22BB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741317F32E2701B100DE22BB /* StartView.swift */; };
+		748D78972E2703BA00BC2729 /* RelicModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 748D78952E2703BA00BC2729 /* RelicModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB47C28A6129A2E2EA168CB /* Pods_OlympusVault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OlympusVault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413179C2E2700F900DE22BB /* OlympusVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlympusVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741317B42E27010F00DE22BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		741317B52E27010F00DE22BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741317B62E27010F00DE22BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741317B72E27010F00DE22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741317B92E27010F00DE22BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741317BB2E27010F00DE22BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		741317C52E27019100DE22BB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		741317C92E27019100DE22BB /* CellForCodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForCodexView.swift; sourceTree = "<group>"; };
+		741317CA2E27019100DE22BB /* CellofRelicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellofRelicView.swift; sourceTree = "<group>"; };
+		741317CB2E27019100DE22BB /* SettingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonView.swift; sourceTree = "<group>"; };
+		741317CD2E27019100DE22BB /* Codex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codex.swift; sourceTree = "<group>"; };
+		741317CE2E27019100DE22BB /* CodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexView.swift; sourceTree = "<group>"; };
+		741317CF2E27019100DE22BB /* CodexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexViewModel.swift; sourceTree = "<group>"; };
+		741317D12E27019100DE22BB /* AddRelicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRelicView.swift; sourceTree = "<group>"; };
+		741317D22E27019100DE22BB /* AddReplicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReplicViewModel.swift; sourceTree = "<group>"; };
+		741317D32E27019100DE22BB /* CollectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListView.swift; sourceTree = "<group>"; };
+		741317D42E27019100DE22BB /* CollectionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListViewModel.swift; sourceTree = "<group>"; };
+		741317D52E27019100DE22BB /* EntyLisyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntyLisyView.swift; sourceTree = "<group>"; };
+		741317D72E27019100DE22BB /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		741317D92E27019100DE22BB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		741317DB2E27019100DE22BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		741317DD2E27019100DE22BB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		741317DF2E27019100DE22BB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		741317F32E2701B100DE22BB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		748D78962E2703BA00BC2729 /* RelicModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RelicModel.xcdatamodel; sourceTree = "<group>"; };
+		BF96A4A9CDB80266769131AF /* Pods-OlympusVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlympusVault.debug.xcconfig"; path = "Target Support Files/Pods-OlympusVault/Pods-OlympusVault.debug.xcconfig"; sourceTree = "<group>"; };
+		C97BFDAEA6CBCD87DBD23E9F /* Pods-OlympusVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlympusVault.release.xcconfig"; path = "Target Support Files/Pods-OlympusVault/Pods-OlympusVault.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741317992E2700F900DE22BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4417C2E7F097003BD7E28FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF96A4A9CDB80266769131AF /* Pods-OlympusVault.debug.xcconfig */,
+				C97BFDAEA6CBCD87DBD23E9F /* Pods-OlympusVault.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		741317932E2700F900DE22BB = {
+			isa = PBXGroup;
+			children = (
+				741317BD2E27010F00DE22BB /* OlympusVault */,
+				7413179D2E2700F900DE22BB /* Products */,
+				4417C2E7F097003BD7E28FEA /* Pods */,
+				FD170F754082FA4D82BE2975 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7413179D2E2700F900DE22BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7413179C2E2700F900DE22BB /* OlympusVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741317BD2E27010F00DE22BB /* OlympusVault */ = {
+			isa = PBXGroup;
+			children = (
+				741317B42E27010F00DE22BB /* AppDelegate.swift */,
+				741317B52E27010F00DE22BB /* Assets.xcassets */,
+				741317B62E27010F00DE22BB /* Info.plist */,
+				741317B82E27010F00DE22BB /* LaunchScreen.storyboard */,
+				741317BA2E27010F00DE22BB /* Main.storyboard */,
+				741317BB2E27010F00DE22BB /* SceneDelegate.swift */,
+				741317C82E27019100DE22BB /* CoreData */,
+				741317E02E27019100DE22BB /* Views */,
+				741317F32E2701B100DE22BB /* StartView.swift */,
+			);
+			path = OlympusVault;
+			sourceTree = "<group>";
+		};
+		741317C82E27019100DE22BB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				741317C52E27019100DE22BB /* CoreDataManager.swift */,
+				748D78952E2703BA00BC2729 /* RelicModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		741317CC2E27019100DE22BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				741317C92E27019100DE22BB /* CellForCodexView.swift */,
+				741317CA2E27019100DE22BB /* CellofRelicView.swift */,
+				741317CB2E27019100DE22BB /* SettingButtonView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		741317D02E27019100DE22BB /* Codex */ = {
+			isa = PBXGroup;
+			children = (
+				741317CD2E27019100DE22BB /* Codex.swift */,
+				741317CE2E27019100DE22BB /* CodexView.swift */,
+				741317CF2E27019100DE22BB /* CodexViewModel.swift */,
+			);
+			path = Codex;
+			sourceTree = "<group>";
+		};
+		741317D62E27019100DE22BB /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				741317D12E27019100DE22BB /* AddRelicView.swift */,
+				741317D22E27019100DE22BB /* AddReplicViewModel.swift */,
+				741317D32E27019100DE22BB /* CollectionListView.swift */,
+				741317D42E27019100DE22BB /* CollectionListViewModel.swift */,
+				741317D52E27019100DE22BB /* EntyLisyView.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		741317D82E27019100DE22BB /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				741317D72E27019100DE22BB /* FavoriteView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		741317DA2E27019100DE22BB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				741317D92E27019100DE22BB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		741317DC2E27019100DE22BB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				741317DB2E27019100DE22BB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		741317DE2E27019100DE22BB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				741317DD2E27019100DE22BB /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		741317E02E27019100DE22BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				741317CC2E27019100DE22BB /* Cells */,
+				741317D02E27019100DE22BB /* Codex */,
+				741317D62E27019100DE22BB /* Collection */,
+				741317D82E27019100DE22BB /* Favorite */,
+				741317DA2E27019100DE22BB /* Onboarding */,
+				741317DC2E27019100DE22BB /* Settings */,
+				741317DE2E27019100DE22BB /* TabBar */,
+				741317DF2E27019100DE22BB /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD170F754082FA4D82BE2975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB47C28A6129A2E2EA168CB /* Pods_OlympusVault.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7413179B2E2700F900DE22BB /* OlympusVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741317AF2E2700FA00DE22BB /* Build configuration list for PBXNativeTarget "OlympusVault" */;
+			buildPhases = (
+				D63B8E422B68D929F354A4D1 /* [CP] Check Pods Manifest.lock */,
+				741317982E2700F900DE22BB /* Sources */,
+				741317992E2700F900DE22BB /* Frameworks */,
+				7413179A2E2700F900DE22BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlympusVault;
+			productName = OlympusVault;
+			productReference = 7413179C2E2700F900DE22BB /* OlympusVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741317942E2700F900DE22BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7413179B2E2700F900DE22BB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 741317972E2700F900DE22BB /* Build configuration list for PBXProject "OlympusVault" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741317932E2700F900DE22BB;
+			productRefGroup = 7413179D2E2700F900DE22BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7413179B2E2700F900DE22BB /* OlympusVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7413179A2E2700F900DE22BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741317BE2E27010F00DE22BB /* Assets.xcassets in Resources */,
+				741317C02E27010F00DE22BB /* LaunchScreen.storyboard in Resources */,
+				741317C12E27010F00DE22BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D63B8E422B68D929F354A4D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OlympusVault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741317982E2700F900DE22BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741317C22E27010F00DE22BB /* AppDelegate.swift in Sources */,
+				741317E12E27019100DE22BB /* CoreDataManager.swift in Sources */,
+				741317E22E27019100DE22BB /* CollectionListView.swift in Sources */,
+				741317E32E27019100DE22BB /* CodexView.swift in Sources */,
+				741317E42E27019100DE22BB /* Codex.swift in Sources */,
+				741317E52E27019100DE22BB /* CodexViewModel.swift in Sources */,
+				741317E62E27019100DE22BB /* LoadingView.swift in Sources */,
+				741317E72E27019100DE22BB /* EntyLisyView.swift in Sources */,
+				741317E82E27019100DE22BB /* AddRelicView.swift in Sources */,
+				741317E92E27019100DE22BB /* CellForCodexView.swift in Sources */,
+				741317EA2E27019100DE22BB /* CollectionListViewModel.swift in Sources */,
+				741317F42E2701B100DE22BB /* StartView.swift in Sources */,
+				741317EB2E27019100DE22BB /* SettingsView.swift in Sources */,
+				741317EC2E27019100DE22BB /* CellofRelicView.swift in Sources */,
+				741317ED2E27019100DE22BB /* MainTabView.swift in Sources */,
+				741317EE2E27019100DE22BB /* FavoriteView.swift in Sources */,
+				741317EF2E27019100DE22BB /* SettingButtonView.swift in Sources */,
+				741317F02E27019100DE22BB /* AddReplicViewModel.swift in Sources */,
+				741317F12E27019100DE22BB /* OnboardingView.swift in Sources */,
+				748D78972E2703BA00BC2729 /* RelicModel.xcdatamodeld in Sources */,
+				741317C32E27010F00DE22BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		741317B82E27010F00DE22BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741317B72E27010F00DE22BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		741317BA2E27010F00DE22BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741317B92E27010F00DE22BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741317B02E2700FA00DE22BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF96A4A9CDB80266769131AF /* Pods-OlympusVault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlympusVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olympus Vault: Relics & Power";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olympusvault.tre3345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		741317B12E2700FA00DE22BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97BFDAEA6CBCD87DBD23E9F /* Pods-OlympusVault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlympusVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olympus Vault: Relics & Power";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olympusvault.tre3345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		741317B22E2700FA00DE22BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		741317B32E2700FA00DE22BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741317972E2700F900DE22BB /* Build configuration list for PBXProject "OlympusVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741317B22E2700FA00DE22BB /* Debug */,
+				741317B32E2700FA00DE22BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741317AF2E2700FA00DE22BB /* Build configuration list for PBXNativeTarget "OlympusVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741317B02E2700FA00DE22BB /* Debug */,
+				741317B12E2700FA00DE22BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		748D78952E2703BA00BC2729 /* RelicModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				748D78962E2703BA00BC2729 /* RelicModel.xcdatamodel */,
+			);
+			currentVersion = 748D78962E2703BA00BC2729 /* RelicModel.xcdatamodel */;
+			path = RelicModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 741317942E2700F900DE22BB /* Project object */;
+}
